@@ -112,7 +112,10 @@
 		"clipmethod_options_all": "Inside All"
 	},
 	"navigation": {
-		"title": "Navigation"
+		"title": "Navigation",
+		"camera_projection_title": "Camera Projection",
+		"camera_projection_options_perspective": "Perspective",
+		"camera_projection_options_orthographic": "Orthographic"
 	},
 	"annotations": {
 		"show3D": "show in 3D",
@@ -122,7 +125,10 @@
 		"nb_points": "Number of Points",
 		"title": "Height profile",
 		"save_las": "Save LAS(3D)",
-		"save_ortho": "Save CSV(2D)"
+		"save_ortho": "Save CSV(2D)",
+		"width": "Width:",
+		"prepare_download": "preparar download",
+		"show_2d_profile": "show 2d profile"
 	},
 	"scene": {
 		"camera_position": "Camera Position",
@@ -131,14 +137,14 @@
 			"title": "Export:"
 		},
 		"objects": {
-			"title": "Objetos",
-			"type_pointcloud": "Nuvem de Pontos",
-			"type_measurements": "Medições",
-			"type_annotations": "Anotações",
-			"type_others": "Outros",
-			"type_vectors": "Vetores",
-			"type_images": "Imagens",
-			"type_others_camera": "Câmera"
+			"title": "Objects",
+			"type_pointcloud": "Point Clouds",
+			"type_measurements": "Measurements",
+			"type_annotations": "Annotations",
+			"type_others": "Others",
+			"type_vectors": "Vectors",
+			"type_images": "Images",
+			"type_others_camera": "Camera"
 		},
 		"properties": {
 			"title": "Properties"
@@ -163,7 +169,7 @@
 			"elevation": {
 				"title": "Elevation",
 				"elevation_range": "Elevation range:",
-				"elevation_range_to": "até",
+				"elevation_range_to": "to",
 				"gradient_title": "Gradient",
 				"gradient_option_clamp": "Clamp",
 				"gradient_option_repeat": "Repeat",
@@ -208,7 +214,8 @@
 		"gps_max": "max",
 		"classification": {
 			"title": "Classification",
-			"invert_button": "invert"
+			"invert_button": "invert",
+			"show_hide_all": "show/hide all"
 		},
 		"returns": {
 			"title": "Returns"
@@ -220,7 +227,8 @@
 		},
 		"gps_time": {
 			"title": "GPS Time",
-			"time": "Time:"
+			"time": "Time:",
+			"find": "find"
 		}
 	},
 	"settings": {

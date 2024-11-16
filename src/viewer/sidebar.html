@@ -24,7 +24,7 @@
 				<li><span data-i18n="appearance.nb_max_pts"></span>: <span id="lblPointBudget"></span> <div id="sldPointBudget"></div></li>
 				<li><span data-i18n="appearance.field_view"></span>: <span id="lblFOV"></span><div id="sldFOV"></div></li>
 
-				<div class="divider"><span data-i18n="appearance.edl_title"></div>
+				<div class="divider"><span data-i18n="appearance.edl_title"></span></div>
 
 				<li><label><input type="checkbox" id="chkEDLEnabled"/><span data-i18n="appearance.edl_enable"></span></label></li>
 				<li><span data-i18n="appearance.edl_radius"></span>: <span id="lblEDLRadius"></span><div id="sldEDLRadius"></div></li>
@@ -151,11 +151,13 @@
 					<div id="gpstime_multilevel_range_container">
 
 						<li>
-							<span style="display: flex">
+							<div style="display: flex; align-items: center;gap: 5px">
 								<span data-i18n="filters.gps_time.time"></span>
-								<input id="txtGpsTime" type="text" style="margin: auto 10px"/>
-								<input id="btnFindGpsTime" type="button" value="find" />
-							</span>
+								<input id="txtGpsTime" type="text" style="width: 120px" />
+								<button id="btnFindGpsTime" type="button">
+									<span data-i18n="filters.gps_time.find"></div>
+								</button>								
+							</div>
 						</li>
 
 					</div>

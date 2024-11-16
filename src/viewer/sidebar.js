@@ -1143,7 +1143,7 @@ export class Sidebar{
 				<li>
 					<label style="whitespace: nowrap">
 						<input id="toggleClassificationFilters" type="checkbox" checked/>
-						<span>show/hide all</span>
+						<span>${i18n.t("filters.classification.show_hide_all")}</span>
 					</label>
 				</li>
 			`);

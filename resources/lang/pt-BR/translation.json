@@ -21,7 +21,7 @@
         "circle_measurement": "Medição de círculo",
         "area_measurement": "Medição de área",
         "volume_measurement": "Medição de volume",
-        "height_profile": "Perfil de altura",
+        "height_profile": "Perfil de Elevação",
         "annotation": "Anotação",
         "clip_volume": "Recorte de volume",
         "clip_polygon": "Recorte de polígono",
@@ -123,9 +123,12 @@
     },
     "profile": {
         "nb_points": "Número de Pontos",
-        "title": "Perfil de Altura",
+        "title": "Perfil de Elevação",
         "save_las": "Salvar LAS (3D)",
-        "save_ortho": "Salvar CSV (2D)"
+        "save_ortho": "Salvar CSV (2D)",
+        "width": "Largura:",
+        "prepare_download": "preparar download",
+        "show_2d_profile": "mostrar perfil 2d"
     },
     "scene": {
         "camera_position": "Posição da câmera",
@@ -211,7 +214,8 @@
         "gps_max": "máx",
         "classification": {
             "title": "Classificação",
-            "invert_button": "inverter"
+            "invert_button": "inverter",
+            "show_hide_all": "selecionar/deselecionar todos"
         },
         "returns": {
             "title": "Retornos"
@@ -223,7 +227,8 @@
         },
         "gps_time": {
             "title": "Tempo GPS",
-            "time": "Tempo:"
+            "time": "Tempo:",
+            "find": "pesquisar"
         }
     },
     "settings": {
