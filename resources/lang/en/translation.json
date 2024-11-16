@@ -233,5 +233,26 @@
 	},
 	"settings": {
 		"language": "Language"
+	},
+	"about": {
+		"description": "is a viewer for large point cloud / LIDAR data sets, developed at the Vienna University of Technology.",
+		"author": "Author:",
+		"license": "License:",
+		"license_type": "FreeBSD (2-clause BSD)",
+		"dep_license": "Dependency Licenses:",
+		"dep_license_see_github": "See github",
+		"funding": "Funding:",
+		"funding_text1": "Potree is funded by a combination of research projects, companies, institutions and individuals. If you're making good use of Potree, please consider funding its future development",
+		"funding_text2": "via Github Sponsors",
+		"funding_text3": "or by directly inquiring",
+		"funding_text4": "via e-mail",
+		"research": "Research projects who's funding contributes to Potree:",
+		"research_col1": "Project Name",
+		"research_col2": "Funding Agency",
+		"thanks": "Thanks to all the companies and institutions funding Potree:",
+		"thanks_diamond": "Diamond",
+		"thanks_gold": "Gold",
+		"thanks_silver": "Silver",
+		"thanks_bronze": "Bronze"
 	}
 }

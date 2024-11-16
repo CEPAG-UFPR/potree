@@ -233,5 +233,26 @@
     },
     "settings": {
         "language": "Idioma"
+    },
+    "about": {
+        "description": "é um visualizador para grandes conjuntos de dados de nuvens de pontos / LIDAR, desenvolvido na Universidade de Tecnologia de Viena.",
+        "author": "Autor:",
+        "license": "Licença:",
+        "license_type": "FreeBSD (2-cláusulas BSD)",
+        "dep_license": "Licenças das Dependências:",
+        "dep_license_see_github": "Veja no GitHub",
+        "funding": "Financiamento:",
+        "funding_text1": "O Potree é financiado por uma combinação de projetos de pesquisa, empresas, instituições e indivíduos. Se você está fazendo bom uso do Potree, considere financiar seu desenvolvimento futuro",
+        "funding_text2": "via Github Sponsors",
+        "funding_text3": "ou entrando em contato diretamente",
+        "funding_text4": "via e-mail",
+        "research": "Projetos de pesquisa cujo financiamento contribui para o Potree:",
+        "research_col1": "Nome do Projeto",
+        "research_col2": "Agência de Financiamento",
+        "thanks": "Obrigado a todas as empresas e instituições que financiam o Potree:",
+        "thanks_diamond": "Diamante",
+        "thanks_gold": "Ouro",
+        "thanks_silver": "Prata",
+        "thanks_bronze": "Bronze"
     }
 }
