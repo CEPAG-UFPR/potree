@@ -51,7 +51,7 @@
 		viewer.setDescription("Point cloud courtesy of <a target='_blank' href='https://www.sigeom.ch/'>sigeom sa</a>");
 		
 		viewer.loadGUI(() => {
-			viewer.setLanguage('en');
+			viewer.setLanguage('pt-BR');
 			$("#menu_tools").next().show();
 			$("#menu_clipping").next().show();
 			viewer.toggleSidebar();
@@ -60,7 +60,7 @@
 		// Load and add point cloud to scene
 		Potree.loadPointCloud("../pointclouds/vol_total/cloud.js", "sigeom.sa", e => {
 			let scene = viewer.scene;
-			let pointcloud = e.pointcloud;
+			let pointcloud = e.pointcloud;			
 			
 			let material = pointcloud.material;
 			material.size = 1;
